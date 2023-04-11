@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""
+Lists all databases in a MongoDB instance.
+"""
+
+import pymongo
+
+# Connect to the default MongoDB instance on localhost
+client = pymongo.MongoClient()
+
+# List all databases
+for db_name in client.list_database_names():
+    print(db_name)
