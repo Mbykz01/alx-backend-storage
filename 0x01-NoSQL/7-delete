@@ -1,2 +1,2 @@
-// define the mongo command to delete the documents
-mongo_cmd="db.school.deleteMany({ name: 'Holberton school' })"
+// define the mongo command to delete  by match
+"db.school.deleteMany({ name: 'Holberton school' })"
