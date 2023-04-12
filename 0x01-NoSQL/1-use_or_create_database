@@ -1,3 +1,2 @@
-mongo <<EOF
-use my_db
-EOF
+//below script that creates or uses the database my_db:
+use my_db;
