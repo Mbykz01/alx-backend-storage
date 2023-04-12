@@ -1,1 +1,1 @@
-//below Write a script that deletes all documents with name="Holberton school" in the collection school:The database name will passe db.school.deleteMany({name: "Holberton school"});
+//below Write a script that deletes all documents with name="Holberton school" in the collection school:The database name will passe db.school.deleteMany({"name": "Holberton school"});
