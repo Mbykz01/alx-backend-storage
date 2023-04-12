@@ -1,6 +1,3 @@
-"""
-Lists all databases in a MongoDB instance.
-"""
+//Lists all databases in a MongoDB instance.
 
-# List all databases
 show dbs;

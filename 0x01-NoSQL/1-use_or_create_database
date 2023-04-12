@@ -1,22 +1,3 @@
-#!/usr/bin/env python3
-"""
-Creates or uses the database my_db in a MongoDB instance.
-"""
-
-import pymongo
-
-# Create a MongoClient instance
-client = pymongo.MongoClient()
-
-# Get the my_db database
-db = client["my_db"]
-
-# Print the names of all databases in the MongoDB instance
-print("Available databases:", client.list_database_names())
-
-# Switch to the my_db database
-client = pymongo.MongoClient()
-db = client["my_db"]
-
-# Print the names of all collections in the my_db database
-print("Available collections:", db.list_collection_names())
+mongo <<EOF
+use my_db
+EOF
